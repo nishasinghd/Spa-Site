@@ -722,10 +722,15 @@ display: block;
 }
 
 
-@media screen and (max-width: 1436px) {
-  
-  .services img{
-    width: 12vw;
-    height: 20vh;
+@media screen and (max-width: 500px) {
+
+  .services img {
+    width: 100%;
+    height: auto;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
   }
 }
